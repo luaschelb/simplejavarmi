@@ -9,7 +9,7 @@ import java.rmi.registry.Registry;
  *
  * @author luana.teixeira
  */
-public class RMIServerClient {
+public class Server {
 
     /**
      * @param args the command line arguments
@@ -21,7 +21,7 @@ public class RMIServerClient {
             IMessage obj_rem = new Message();
             Registry registry = java.rmi.registry.LocateRegistry.createRegistry(1101);
             registry.bind(nome, obj_rem);
-            System.out.println("Servidor iniciado");
+            System.out.println("Servidor esta sendo executado na porta 1101.");
         } catch (Exception e) {
             System.out.println("Excecao do objeto remoto "
                     + e.getMessage());
