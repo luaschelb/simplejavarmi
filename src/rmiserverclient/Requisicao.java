@@ -17,7 +17,7 @@ public class Requisicao implements Serializable {
     public Resultado executa(){
         System.out.println(msg);
         String username = msg.split(":")[0];
-        String resultMessage = "Server: Ola: " + username + "! Mensagem Recebida!";
+        String resultMessage = "Server: Ola, " + username + "! Mensagem Recebida!";
         Resultado result = new Resultado(resultMessage);
         System.out.println(result.msg);
         return result;
