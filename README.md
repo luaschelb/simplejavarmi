@@ -2,6 +2,8 @@
 
 Este projeto demonstra os conceitos básicos do Java RMI (Remote Method Invocation) com classes de servidor e cliente.
 
+Link do vídeo contendo o Pitch para a aplicação: https://youtu.be/RnLN3Ne2Rcw
+
 #### Passos para Importação e Execução no NetBeans
 
 1. **Clone o Repositório:**
